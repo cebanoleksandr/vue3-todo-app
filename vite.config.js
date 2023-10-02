@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  publicPath: '/',
+  base: '/vue3-todo-app/',
   plugins: [
     vue(),
   ],
